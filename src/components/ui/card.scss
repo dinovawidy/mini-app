@@ -1,0 +1,121 @@
+.section__card {
+  padding: 0px 100px;
+  margin-bottom: 3rem;
+  .card {
+    .container {
+      background-color: #71ca9b;
+      border-radius: 20px;
+      display: flex;
+      padding: 30px 30px;
+      gap: 2rem;
+      .doube__card {
+        width: 70%;
+
+        h2 {
+          color: rgb(38, 50, 56);
+          font-size: 20px;
+          margin-top: 0px;
+          font-family: Quicksand !important;
+          font-weight: 400;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-family: Quicksand, sans-serif !important;
+          color: #263238;
+          font-size: 12px;
+          line-height: 20px;
+        }
+
+        .jawaban {
+          padding: 30px 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: white;
+          border-radius: 20px;
+          height: 30%;
+          margin-bottom: 40px;
+
+          img {
+            size: 20px;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 10px;
+            width: 120px;
+          }
+        }
+        .konsep {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: white;
+          border-radius: 20px;
+          height: 40%;
+
+          img {
+            size: 20px;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 10px;
+            width: 120px;
+          }
+        }
+      }
+
+      .portfolio {
+        background: white;
+        width: 60%;
+        padding: 30px 30px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        img {
+          align-items: center;
+          justify-content: center;
+          padding: 0px 10px;
+          width: 200px;
+        }
+
+        h2 {
+            color: rgb(38, 50, 56);
+          font-size: 20px;
+          margin-top: 0px;
+          font-family: Quicksand !important;
+          font-weight: 400;
+          margin-bottom: 0.5rem;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+        p {
+            font-family: Quicksand, sans-serif !important;
+          color: #263238;
+          font-size: 12px;
+          line-height: 20px;
+          text-align: center;
+        }
+      }
+
+      .pertanyaan {
+        width: 70%;
+        background-image: url("background1.svg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 200px 280px;
+        h1 {
+          font-size: 48px;
+          color: white;
+          text-align: left;
+        }
+        p {
+          font-size: 20px;
+          font-family: Quicksand, sans-serif !important;
+          text-align: left;
+          color: #fefefe;
+        }
+      }
+    }
+  }
+}

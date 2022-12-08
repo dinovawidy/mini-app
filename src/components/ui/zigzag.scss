@@ -1,0 +1,278 @@
+.Zigzag__card {
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  .zigzag {
+    display: flex;
+    .slide1 {
+      justify-content: center;
+      padding: 10% 0%;
+      margin-top: 0;
+      margin: auto;
+      h1 {
+        font-size: 48px;
+        padding: 10px;
+        color: #263238;
+      }
+      p {
+        font-size: 20px;
+        text-align: left;
+        padding-right: 5rem;
+        color: #263238;
+        line-height: 2rem;
+      }
+    }
+    .slide2 {
+      align-items: center;
+      width: 100%;
+      padding: 20px 0px;
+
+      .online__forum {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        padding: 10px 40px;
+
+        .tes {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+
+          .image {
+            width: 80px;
+            height: 100px;
+            border-radius: 100%;
+            right: 480px;
+            position: absolute;
+            background-color: white;
+            border: 5px solid teal;
+            padding: 0px 10px;
+            img {
+              align-items: center;
+              justify-content: center;
+              align-items: center;
+              height: 80%;
+              padding: 10px 0px;
+              width: 50px;
+            }
+          }
+
+          .text {
+            background: white;
+            height: 250px;
+            width: 60%;
+            border-radius: 20px;
+            box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.15);
+            padding: 10px 10px;
+
+            h2 {
+              color: rgb(38, 50, 56);
+              font-size: 20px;
+              margin-top: 0px;
+              font-family: Quicksand !important;
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+            }
+
+            p {
+              padding: 5px 40px;
+              width: 100%;
+              font-family: Quicksand, sans-serif !important;
+              color: #263238;
+              font-size: 12px;
+              line-height: 20px;
+              text-align: left;
+            }
+
+            .button {
+              width: 100%;
+              button {
+                font-family: Quicksand;
+                height: fit-content;
+                cursor: pointer;
+                background-color: rgb(249, 129, 58);
+                color: white;
+                border: none;
+                font-size: 16px;
+                font-weight: 400;
+                position: relative;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 20px;
+              }
+            }
+          }
+        }
+      }
+
+      .microblogging {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        padding: 10px 40px;
+
+        .micro {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          position: relative;
+          right: 130px;
+
+          .image {
+            width: 80px;
+            height: 100px;
+            border-radius: 100%;
+            right: 340px;
+            position: absolute;
+            background-color: white;
+            border: 5px solid teal;
+            padding: 0px 10px;
+            img {
+              align-items: center;
+              justify-content: center;
+              align-items: center;
+              height: 80%;
+              padding: 10px 0px;
+              width: 50px;
+            }
+          }
+
+          .text {
+            background: white;
+            height: 250px;
+            width: 60%;
+            border-radius: 20px;
+            box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.15);
+            padding: 10px 10px;
+
+            h2 {
+              color: rgb(38, 50, 56);
+              font-size: 20px;
+              margin-top: 0px;
+              font-family: Quicksand !important;
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+            }
+
+            p {
+              padding: 5px 40px;
+              width: 100%;
+              font-family: Quicksand, sans-serif !important;
+              color: #263238;
+              font-size: 12px;
+              line-height: 20px;
+              text-align: left;
+            }
+
+            .button {
+              width: 100%;
+              button {
+                font-family: Quicksand;
+                height: fit-content;
+                cursor: pointer;
+                background-color: rgb(249, 129, 58);
+                color: white;
+                border: none;
+                font-size: 16px;
+                font-weight: 400;
+                position: relative;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 20px;
+              }
+            }
+          }
+        }
+      }
+      .job__hiring {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        padding: 10px 40px;
+
+        .job {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+
+          .image {
+            width: 80px;
+            height: 100px;
+            border-radius: 100%;
+            right: 480px;
+            position: absolute;
+            background-color: white;
+            border: 5px solid gray;
+            padding: 0px 10px;
+            img {
+              align-items: center;
+              justify-content: center;
+              align-items: center;
+              height: 80%;
+              padding: 10px 0px;
+              width: 50px;
+            }
+          }
+
+          .text {
+            background: white;
+            height: 280px;
+            width: 60%;
+            border-radius: 20px;
+            box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.15);
+            padding: 10px 10px;
+            text-align: center;
+
+            h2 {
+              padding: 5px 55px;
+              color: rgb(38, 50, 56);
+              font-size: 20px;
+              margin-top: 0px;
+              font-family: Quicksand !important;
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+              text-align: left;
+            }
+
+            p {
+              padding: 5px 60px;
+              width: 100%;
+              font-family: Quicksand, sans-serif !important;
+              color: #263238;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: left;
+            }
+
+            .button {
+              width: 100%;
+              button {
+                font-family: Quicksand;
+                height: fit-content;
+                cursor: pointer;
+                background-color: gray;
+                color: white;
+                border: none;
+                font-size: 16px;
+                font-weight: 400;
+                position: relative;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

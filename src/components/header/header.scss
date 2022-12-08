@@ -1,0 +1,119 @@
+.sticky__header {
+    width: 100%;
+    height: 70px;
+    line-height: 70;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background: white;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+
+    .nav__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            cursor: pointer;
+    
+            img {
+                padding: 0px 80px;
+                width: 120px;
+                height: 32.2833px;
+            }
+    
+            // h1 {
+            //     font-size: 1.2rem;
+            //     font-weight: 700;
+            //     color: rgb(24, 22, 22);
+            // }
+        }
+    
+        .navigation {
+            
+    
+                .nav__item {
+                    font-size: 1rem;
+                    display: flexbox;
+                    padding: 10px 27px;
+                    color: #42b679;
+                    font-weight: 400;
+                    cursor: pointer;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    background-color: white;
+                    border: none;
+    
+                    &:hover {
+                        color: white;
+                    background-color: white;
+                    border: 1px solid #42b679;
+                    }
+                }
+            
+        }
+    
+        .nav__login {
+            display: flex;
+            align-items: center;
+            column-gap: 1.2rem;
+            padding: 0px 120px;
+    
+            .login {
+                width: max-content;
+                padding: 10px 40px;
+                border: none;
+                border-radius: 5px;
+                background-color: white;
+                cursor: pointer;
+                border: 1px solid #42b679 ;
+                color:#42b679;
+    
+                &:hover {
+                    color: white;
+                    background-color: #42b679;
+                    border: 1px solid white;
+                }
+            }
+            .register {
+                width: max-content;
+                padding: 10px 40px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(19, 164, 88);
+                cursor: pointer;
+                border: 1px solid #42b679 ;
+                color:white;
+    
+                &:hover {
+                    color: white;
+                    background-color: #42b679;
+                    border: 1px solid white;
+                }
+    
+            }
+        }
+    
+        .nav__active {
+            font-weight: 600 !important;
+            border: none;
+            text-decoration: none;
+        }
+
+    }
+    .garis {
+        margin-top: 0;
+        color: rgb(249, 129, 58);
+        border: 2px solid rgb(249, 129, 58);
+    }
+
+}
