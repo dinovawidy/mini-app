@@ -1,0 +1,3 @@
+[submodule "mini-app"]
+	path = mini-app
+	url = https://github.com/dinovawidy/Skilltest-IP-batch16.git
